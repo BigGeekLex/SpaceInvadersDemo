@@ -1,3 +1,4 @@
+using System;
 using SimpleDImple;
 using Spawn;
 
@@ -12,6 +13,12 @@ namespace Units
         {
             _enemySpawner = enemySpawner;
         }
+
+        private void Awake()
+        {
+            OnAwake();
+        }
+
         protected override void OnUnitDeath()
         {
             _enemySpawner.DespawnEnemy(gameObject);

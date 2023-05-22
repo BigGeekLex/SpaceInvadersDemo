@@ -87,7 +87,6 @@
      <Compile Include="Assets/Scripts/Movement/MovementController.cs" />
      <Compile Include="Assets/Scripts/LevelControllers/EnemyRoundSpawner.cs" />
      <Compile Include="Assets/Scripts/Utilities/ScreenBound.cs" />
-     <Compile Include="Assets/Scripts/SimpleDImple/IInjectionContainer.cs" />
      <Compile Include="Assets/Scripts/ShootLogic/Bullet.cs" />
      <Compile Include="Assets/Scripts/ShootLogic/IBullet.cs" />
      <Compile Include="Assets/Scripts/GameConstants.cs" />
@@ -96,6 +95,7 @@
      <Compile Include="Assets/Scripts/GameStatement/GameState.cs" />
      <Compile Include="Assets/Scripts/Units/UnitBase.cs" />
      <Compile Include="Assets/Scripts/Utilities/IScreenBound.cs" />
+     <Compile Include="Assets/Scripts/SimpleDImple/SimpleDImple.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets/2D Pixel Spaceship - Two Small Ships" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
@@ -160,7 +160,6 @@
      <Folder Include="Assets/Scenes" />
      <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <Folder Include="Assets/Planets with Space Background 2.0/Sprites/Galaxies" />
-     <Folder Include="Assets/TextMesh Pro/Documentation" />
      <Folder Include="Assets/Planets with Space Background 2.0/Sprites/Background Stars" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
      <Folder Include="Assets/Crehera/2D Pixelart Spaceship Examples/Ship Two" />
